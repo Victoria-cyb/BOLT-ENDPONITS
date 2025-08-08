@@ -97,6 +97,18 @@ mutation {
   }
 }
 
+# Forgotten Password 
+
+mutation {
+  forgotPassword(email: "rita@gmaiL.com")
+}
+
+# Reset Password
+
+mutation {
+  resetPassword(otp: "127149", newPassword: "newPassword123")
+}
+
 
 
 
